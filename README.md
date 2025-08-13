@@ -1,4 +1,4 @@
-**#Hotel Room API Testing - Rest Assured**
+#Hotel Room API Testing - Rest Assured
 ## Overview
 This project automates the testing of Hotel Room API endpoints using Rest Assured and TestNG.
 It validates different API functionalities such as room creation, retrieval, updating, and deletion with proper assertions and response verifications.
