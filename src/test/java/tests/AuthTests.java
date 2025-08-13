@@ -1,9 +1,11 @@
 package tests;
 
-import base.TestBase;
-import org.testng.annotations.Test;
-import utils.TokenManager;
 import static org.testng.Assert.*;
+
+import org.testng.annotations.Test;
+
+import base.TestBase;
+import utils.TokenManager;
 
 public class AuthTests extends TestBase {
 
