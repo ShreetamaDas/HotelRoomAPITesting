@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Hotel_Room_API_Suite" class="navigator-link ">
-                    <span>C:\Users\DELL\Downloads\HotelRoomApiRestAssuredZip\HotelRoomApiRestAssured\testng.xml</span>
+                    <span>C:\Users\DELL\git\HotelRoomAPITesting\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">18 methods, 3 failed,   15 passed</span>
+                    <span class="method-stats">19 methods, 3 failed,   16 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -132,6 +132,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.AddRoomTest" class="method navigator-link" hash-for-method="testAddRoomUsingPOJO">testAddRoomUsingPOJO</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.DeleteRoomTest" class="method navigator-link" hash-for-method="testDeleteRoomById">testDeleteRoomById</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -162,17 +167,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomByIdTest" class="method navigator-link" hash-for-method="testViewRoomByIdFromJson(301)">testViewRoomByIdFromJson(301)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomByIdTest" class="method navigator-link" hash-for-method="testViewRoomByIdFromJson(701)">testViewRoomByIdFromJson(701)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomByIdTest" class="method navigator-link" hash-for-method="testViewRoomByIdFromJson(101)">testViewRoomByIdFromJson(101)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomByIdTest" class="method navigator-link" hash-for-method="testViewRoomByIdFromJson(301)">testViewRoomByIdFromJson(301)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -187,7 +192,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomByTypeTest" class="method navigator-link" hash-for-method="testViewRoomsByTypeFromJson(SINGLE)">testViewRoomsByTypeFromJson(SINGLE)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomByTypeTest" class="method navigator-link" hash-for-method="testViewRoomsByTypeFromJson(DOUBLE)">testViewRoomsByTypeFromJson(DOUBLE)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -197,7 +202,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomByTypeTest" class="method navigator-link" hash-for-method="testViewRoomsByTypeFromJson(DOUBLE)">testViewRoomsByTypeFromJson(DOUBLE)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomByTypeTest" class="method navigator-link" hash-for-method="testViewRoomsByTypeFromJson(SINGLE)">testViewRoomsByTypeFromJson(SINGLE)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Hotel_Room_API_Suite -->
@@ -365,7 +370,7 @@ Expected status code &lt;200&gt; but was &lt;400&gt;.
 	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
 	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at tests.AddRoomTest.testAddRoomsFromJson(AddRoomTest.java:49)
+	at tests.AddRoomTest.testAddRoomsFromJson(AddRoomTest.java:89)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
@@ -440,10 +445,10 @@ Expected status code &lt;200&gt; but was &lt;400&gt;.
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testViewRoomsByTypeFromJson(SINGLE)">
-                  </a> <!-- testViewRoomsByTypeFromJson(SINGLE) -->
+                  <a name="testViewRoomsByTypeFromJson(DOUBLE)">
+                  </a> <!-- testViewRoomsByTypeFromJson(DOUBLE) -->
                   <span class="method-name">testViewRoomsByTypeFromJson</span>
-                  <span class="parameters">(SINGLE)</span>
+                  <span class="parameters">(DOUBLE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -456,10 +461,10 @@ Expected status code &lt;200&gt; but was &lt;400&gt;.
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testViewRoomsByTypeFromJson(DOUBLE)">
-                  </a> <!-- testViewRoomsByTypeFromJson(DOUBLE) -->
+                  <a name="testViewRoomsByTypeFromJson(SINGLE)">
+                  </a> <!-- testViewRoomsByTypeFromJson(SINGLE) -->
                   <span class="method-name">testViewRoomsByTypeFromJson</span>
-                  <span class="parameters">(DOUBLE)</span>
+                  <span class="parameters">(SINGLE)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -479,6 +484,14 @@ Expected status code &lt;200&gt; but was &lt;400&gt;.
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="testViewRoomByIdFromJson(301)">
+                  </a> <!-- testViewRoomByIdFromJson(301) -->
+                  <span class="method-name">testViewRoomByIdFromJson</span>
+                  <span class="parameters">(301)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testViewRoomByIdFromJson(701)">
                   </a> <!-- testViewRoomByIdFromJson(701) -->
                   <span class="method-name">testViewRoomByIdFromJson</span>
@@ -491,14 +504,6 @@ Expected status code &lt;200&gt; but was &lt;400&gt;.
                   </a> <!-- testViewRoomByIdFromJson(101) -->
                   <span class="method-name">testViewRoomByIdFromJson</span>
                   <span class="parameters">(101)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testViewRoomByIdFromJson(301)">
-                  </a> <!-- testViewRoomByIdFromJson(301) -->
-                  <span class="method-name">testViewRoomByIdFromJson</span>
-                  <span class="parameters">(301)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -514,6 +519,13 @@ Expected status code &lt;200&gt; but was &lt;400&gt;.
                   <a name="testAddRoom">
                   </a> <!-- testAddRoom -->
                   <span class="method-name">testAddRoom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddRoomUsingPOJO">
+                  </a> <!-- testAddRoomUsingPOJO -->
+                  <span class="method-name">testAddRoomUsingPOJO</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -543,7 +555,7 @@ Expected status code &lt;200&gt; but was &lt;400&gt;.
         </div> <!-- panel Hotel_Room_API_Suite -->
         <div panel-name="test-xml-Hotel_Room_API_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\DELL\Downloads\HotelRoomApiRestAssuredZip\HotelRoomApiRestAssured\testng.xml</span>
+            <span class="header-content">C:\Users\DELL\git\HotelRoomAPITesting\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -598,84 +610,88 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(18);
+data.addRows(19);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testGetAuthAndToken')
 data.setCell(0, 2, 'tests.AuthTests')
-data.setCell(0, 3, 4803);
+data.setCell(0, 3, 2614);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testAddRoomsFromJson')
 data.setCell(1, 2, 'tests.AddRoomTest')
-data.setCell(1, 3, 1093);
+data.setCell(1, 3, 1004);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testViewRoomList')
-data.setCell(2, 2, 'tests.ViewRoomListTest')
-data.setCell(2, 3, 629);
+data.setCell(2, 1, 'testUpdateRoomPricesFromJson')
+data.setCell(2, 2, 'tests.UpdateRoomPriceTest')
+data.setCell(2, 3, 612);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testUpdateRoomPricesFromJson')
-data.setCell(3, 2, 'tests.UpdateRoomPriceTest')
-data.setCell(3, 3, 625);
+data.setCell(3, 1, 'testDeleteRoomsFromJson')
+data.setCell(3, 2, 'tests.DeleteRoomTest')
+data.setCell(3, 3, 595);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testDeleteRoomsFromJson')
-data.setCell(4, 2, 'tests.DeleteRoomTest')
-data.setCell(4, 3, 602);
+data.setCell(4, 1, 'testAddRoom')
+data.setCell(4, 2, 'tests.AddRoomTest')
+data.setCell(4, 3, 370);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testAddRoom')
-data.setCell(5, 2, 'tests.AddRoomTest')
-data.setCell(5, 3, 337);
+data.setCell(5, 1, 'testViewRoomList')
+data.setCell(5, 2, 'tests.ViewRoomListTest')
+data.setCell(5, 3, 306);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testViewRoomById')
-data.setCell(6, 2, 'tests.ViewRoomByIdTest')
-data.setCell(6, 3, 243);
+data.setCell(6, 1, 'testViewRoomByType')
+data.setCell(6, 2, 'tests.ViewRoomByTypeTest')
+data.setCell(6, 3, 200);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'testViewRoomByIdFromJson')
 data.setCell(7, 2, 'tests.ViewRoomByIdTest')
-data.setCell(7, 3, 223);
+data.setCell(7, 3, 193);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testViewRoomByIdFromJson')
-data.setCell(8, 2, 'tests.ViewRoomByIdTest')
-data.setCell(8, 3, 213);
+data.setCell(8, 1, 'testViewRoomsByTypeFromJson')
+data.setCell(8, 2, 'tests.ViewRoomByTypeTest')
+data.setCell(8, 3, 193);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testViewRoomByType')
-data.setCell(9, 2, 'tests.ViewRoomByTypeTest')
-data.setCell(9, 3, 209);
+data.setCell(9, 1, 'testViewRoomByIdFromJson')
+data.setCell(9, 2, 'tests.ViewRoomByIdTest')
+data.setCell(9, 3, 188);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testViewRoomsByTypeFromJson')
-data.setCell(10, 2, 'tests.ViewRoomByTypeTest')
-data.setCell(10, 3, 208);
+data.setCell(10, 1, 'testViewRoomByIdFromJson')
+data.setCell(10, 2, 'tests.ViewRoomByIdTest')
+data.setCell(10, 3, 188);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'testViewRoomsByTypeFromJson')
 data.setCell(11, 2, 'tests.ViewRoomByTypeTest')
-data.setCell(11, 3, 207);
+data.setCell(11, 3, 185);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testViewRoomsByTypeFromJson')
-data.setCell(12, 2, 'tests.ViewRoomByTypeTest')
-data.setCell(12, 3, 202);
+data.setCell(12, 1, 'testViewRoomByIdFromJson')
+data.setCell(12, 2, 'tests.ViewRoomByIdTest')
+data.setCell(12, 3, 185);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testViewRoomByIdFromJson')
+data.setCell(13, 1, 'testViewRoomById')
 data.setCell(13, 2, 'tests.ViewRoomByIdTest')
-data.setCell(13, 3, 200);
+data.setCell(13, 3, 179);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testViewRoomByIdFromJson')
-data.setCell(14, 2, 'tests.ViewRoomByIdTest')
-data.setCell(14, 3, 190);
+data.setCell(14, 1, 'testViewRoomsByTypeFromJson')
+data.setCell(14, 2, 'tests.ViewRoomByTypeTest')
+data.setCell(14, 3, 173);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testViewRoomsByTypeFromJson')
-data.setCell(15, 2, 'tests.ViewRoomByTypeTest')
-data.setCell(15, 3, 180);
+data.setCell(15, 1, 'testAddRoomUsingPOJO')
+data.setCell(15, 2, 'tests.AddRoomTest')
+data.setCell(15, 3, 172);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'testUpdateRoomPrice')
 data.setCell(16, 2, 'tests.UpdateRoomPriceTest')
-data.setCell(16, 3, 149);
+data.setCell(16, 3, 172);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'testDeleteRoomById')
-data.setCell(17, 2, 'tests.DeleteRoomTest')
-data.setCell(17, 3, 141);
+data.setCell(17, 1, 'testViewRoomsByTypeFromJson')
+data.setCell(17, 2, 'tests.ViewRoomByTypeTest')
+data.setCell(17, 3, 170);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testDeleteRoomById')
+data.setCell(18, 2, 'tests.DeleteRoomTest')
+data.setCell(18, 3, 147);
 window.suiteTableData['Hotel_Room_API_Suite']= { tableData: data, tableDiv: 'times-div-Hotel_Room_API_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Hotel_Room_API_Suite">
               </div> <!-- times-div-Hotel_Room_API_Suite -->
             </div> <!-- times-div -->
@@ -723,18 +739,18 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">tests.ViewRoomByIdTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">beforeSuite</span>
-                <br/>
                 <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">tests.AddRoomTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterSuite</span>
-                <br/>
                 <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -762,250 +778,262 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.AuthTests.testGetAuthAndToken())</span>
-                <span class="method-start">1794 ms</span>
+                <span class="method-start">994 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetAuthAndToken</span>
-                <span class="method-start">1809 ms</span>
+                <span class="method-start">1003 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testGetAuthAndToken status=SUCCESS method=AuthTests.testGetAuthAndToken()[pri:0, in...)</span>
-                <span class="method-start">6616 ms</span>
+                <span class="method-start">3623 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.ViewRoomListTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.ViewRoomListTest.testViewRoomList())</span>
-                <span class="method-start">6623 ms</span>
+                <span class="method-start">3630 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testViewRoomList</span>
-                <span class="method-start">6624 ms</span>
+                <span class="method-start">3631 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testViewRoomList status=SUCCESS method=ViewRoomListTest.testViewRoomList()[pri:0, i...)</span>
-                <span class="method-start">7255 ms</span>
+                <span class="method-start">3940 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.ViewRoomByIdTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.ViewRoomByIdTest.testViewRoomById())</span>
-                <span class="method-start">7263 ms</span>
+                <span class="method-start">3946 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testViewRoomById</span>
-                <span class="method-start">7264 ms</span>
+                <span class="method-start">3948 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testViewRoomById status=SUCCESS method=ViewRoomByIdTest.testViewRoomById()[pri:0, i...)</span>
-                <span class="method-start">7508 ms</span>
+                <span class="method-start">4128 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.ViewRoomByIdTest.testViewRoomByIdFromJson(int))</span>
-                <span class="method-start">7899 ms</span>
+                <span class="method-start">4345 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testViewRoomByIdFromJson(101)</span>
-                <span class="method-start">7902 ms</span>
+                <span class="method-start">4346 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testViewRoomByIdFromJson status=SUCCESS method=ViewRoomByIdTest.testViewRoomByIdFro...)</span>
-                <span class="method-start">8126 ms</span>
+                <span class="method-start">4536 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.ViewRoomByIdTest.testViewRoomByIdFromJson(int))</span>
-                <span class="method-start">8127 ms</span>
+                <span class="method-start">4539 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testViewRoomByIdFromJson(301)</span>
-                <span class="method-start">8128 ms</span>
+                <span class="method-start">4540 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testViewRoomByIdFromJson status=SUCCESS method=ViewRoomByIdTest.testViewRoomByIdFro...)</span>
-                <span class="method-start">8343 ms</span>
+                <span class="method-start">4732 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void tests.ViewRoomByIdTest.testViewRoomByIdFromJson(int))</span>
-                <span class="method-start">8344 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testViewRoomByIdFromJson(701)</span>
-                <span class="method-start">8344 ms</span>
+                <span class="method-start">4733 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.ViewRoomByIdTest.testViewRoomByIdFromJson(int))</span>
+                <span class="method-start">4733 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testViewRoomByIdFromJson status=SUCCESS method=ViewRoomByIdTest.testViewRoomByIdFro...)</span>
-                <span class="method-start">8536 ms</span>
+                <span class="method-start">4933 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.ViewRoomByIdTest.testViewRoomByIdFromJson(int))</span>
-                <span class="method-start">8538 ms</span>
+                <span class="method-start">4934 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testViewRoomByIdFromJson(702)</span>
-                <span class="method-start">8538 ms</span>
+                <span class="method-start">4943 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testViewRoomByIdFromJson status=FAILURE method=ViewRoomByIdTest.testViewRoomByIdFro...)</span>
-                <span class="method-start">8743 ms</span>
+                <span class="method-start">5136 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.ViewRoomByTypeTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testViewRoomByType</span>
-                <span class="method-start">8750 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.ViewRoomByTypeTest.testViewRoomByType())</span>
-                <span class="method-start">8750 ms</span>
+                <span class="method-start">5151 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testViewRoomByType</span>
+                <span class="method-start">5151 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testViewRoomByType status=SUCCESS method=ViewRoomByTypeTest.testViewRoomByType()[pr...)</span>
-                <span class="method-start">8960 ms</span>
+                <span class="method-start">5352 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.ViewRoomByTypeTest.testViewRoomsByTypeFromJson(java.lang.String))</span>
-                <span class="method-start">8970 ms</span>
+                <span class="method-start">5365 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testViewRoomsByTypeFromJson(SINGLE)</span>
-                <span class="method-start">8971 ms</span>
+                <span class="method-start">5365 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testViewRoomsByTypeFromJson status=SUCCESS method=ViewRoomByTypeTest.testViewRoomsB...)</span>
-                <span class="method-start">9183 ms</span>
+                <span class="method-start">5551 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.ViewRoomByTypeTest.testViewRoomsByTypeFromJson(java.lang.String))</span>
-                <span class="method-start">9184 ms</span>
+                <span class="method-start">5552 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testViewRoomsByTypeFromJson(DELUXE)</span>
-                <span class="method-start">9185 ms</span>
+                <span class="method-start">5555 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testViewRoomsByTypeFromJson status=SUCCESS method=ViewRoomByTypeTest.testViewRoomsB...)</span>
-                <span class="method-start">9367 ms</span>
+                <span class="method-start">5726 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.ViewRoomByTypeTest.testViewRoomsByTypeFromJson(java.lang.String))</span>
-                <span class="method-start">9368 ms</span>
+                <span class="method-start">5727 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testViewRoomsByTypeFromJson(DOUBLE)</span>
-                <span class="method-start">9368 ms</span>
+                <span class="method-start">5727 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testViewRoomsByTypeFromJson status=SUCCESS method=ViewRoomByTypeTest.testViewRoomsB...)</span>
-                <span class="method-start">9572 ms</span>
+                <span class="method-start">5902 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.ViewRoomByTypeTest.testViewRoomsByTypeFromJson(java.lang.String))</span>
-                <span class="method-start">9574 ms</span>
+                <span class="method-start">5904 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testViewRoomsByTypeFromJson(abcd)</span>
-                <span class="method-start">9575 ms</span>
+                <span class="method-start">5904 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testViewRoomsByTypeFromJson status=FAILURE method=ViewRoomByTypeTest.testViewRoomsB...)</span>
-                <span class="method-start">9786 ms</span>
+                <span class="method-start">6101 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.AddRoomTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.AddRoomTest.testAddRoom())</span>
-                <span class="method-start">9791 ms</span>
+                <span class="method-start">6109 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testAddRoom</span>
-                <span class="method-start">9793 ms</span>
+                <span class="method-start">6110 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testAddRoom status=SUCCESS method=AddRoomTest.testAddRoom()[pri:0, instance:tests.A...)</span>
-                <span class="method-start">10133 ms</span>
+                <span class="method-start">6482 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void tests.AddRoomTest.testAddRoomsFromJson())</span>
-                <span class="method-start">10134 ms</span>
+                <span class="method-name">beforeMethod(public void tests.AddRoomTest.testAddRoomUsingPOJO())</span>
+                <span class="method-start">6483 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddRoomUsingPOJO</span>
+                <span class="method-start">6484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAddRoomUsingPOJO status=SUCCESS method=AddRoomTest.testAddRoomUsingPOJO()[pri:0...)</span>
+                <span class="method-start">6657 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testAddRoomsFromJson</span>
-                <span class="method-start">10135 ms</span>
+                <span class="method-start">6658 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.AddRoomTest.testAddRoomsFromJson())</span>
+                <span class="method-start">6658 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testAddRoomsFromJson status=FAILURE method=AddRoomTest.testAddRoomsFromJson()[pri:0...)</span>
-                <span class="method-start">11230 ms</span>
+                <span class="method-start">7665 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.UpdateRoomPriceTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.UpdateRoomPriceTest.testUpdateRoomPrice())</span>
-                <span class="method-start">11233 ms</span>
+                <span class="method-start">7669 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUpdateRoomPrice</span>
-                <span class="method-start">11234 ms</span>
+                <span class="method-start">7670 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testUpdateRoomPrice status=SUCCESS method=UpdateRoomPriceTest.testUpdateRoomPrice()...)</span>
-                <span class="method-start">11383 ms</span>
+                <span class="method-start">7845 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">testUpdateRoomPricesFromJson</span>
-                <span class="method-start">11384 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.UpdateRoomPriceTest.testUpdateRoomPricesFromJson())</span>
-                <span class="method-start">11384 ms</span>
+                <span class="method-start">7846 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateRoomPricesFromJson</span>
+                <span class="method-start">7847 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testUpdateRoomPricesFromJson status=SUCCESS method=UpdateRoomPriceTest.testUpdateRo...)</span>
-                <span class="method-start">12011 ms</span>
+                <span class="method-start">8461 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.DeleteRoomTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void tests.DeleteRoomTest.testDeleteRoomById())</span>
-                <span class="method-start">12012 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeleteRoomById</span>
-                <span class="method-start">12013 ms</span>
+                <span class="method-start">8463 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.DeleteRoomTest.testDeleteRoomById())</span>
+                <span class="method-start">8463 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testDeleteRoomById status=SUCCESS method=DeleteRoomTest.testDeleteRoomById()[pri:0,...)</span>
-                <span class="method-start">12155 ms</span>
+                <span class="method-start">8612 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void tests.DeleteRoomTest.testDeleteRoomsFromJson())</span>
-                <span class="method-start">12158 ms</span>
+                <span class="method-start">8614 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeleteRoomsFromJson</span>
-                <span class="method-start">12159 ms</span>
+                <span class="method-start">8616 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=testDeleteRoomsFromJson status=SUCCESS method=DeleteRoomTest.testDeleteRoomsFromJso...)</span>
-                <span class="method-start">12762 ms</span>
+                <span class="method-start">9213 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">tests.AuthTests</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">12891 ms</span>
+                <span class="method-start">9254 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
