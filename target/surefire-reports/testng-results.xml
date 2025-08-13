@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-12T20:05:33 IST" name="Hotel Room API Suite" finished-at="2025-08-12T20:05:40 IST" duration-ms="7262">
+    <groups>
+    </groups>
+    <test started-at="2025-08-12T20:05:33 IST" name="RoomService Tests" finished-at="2025-08-12T20:05:40 IST" duration-ms="7262">
+      <class name="tests.UpdateRoomPriceTest">
+        <test-method signature="testUpdateRoomPrice()[pri:0, instance:tests.UpdateRoomPriceTest@20ce78ec]" started-at="2025-08-12T20:05:38 IST" name="testUpdateRoomPrice" finished-at="2025-08-12T20:05:39 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateRoomPrice -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.UpdateRoomPriceTest@20ce78ec]" started-at="2025-08-12T20:05:38 IST" name="beforeMethod" finished-at="2025-08-12T20:05:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UpdateRoomPriceTest.testUpdateRoomPrice()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testUpdateRoomPricesFromJson()[pri:0, instance:tests.UpdateRoomPriceTest@20ce78ec]" started-at="2025-08-12T20:05:39 IST" name="testUpdateRoomPricesFromJson" finished-at="2025-08-12T20:05:39 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateRoomPricesFromJson -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.UpdateRoomPriceTest@20ce78ec]" started-at="2025-08-12T20:05:39 IST" name="beforeMethod" finished-at="2025-08-12T20:05:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.UpdateRoomPriceTest.testUpdateRoomPricesFromJson()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.UpdateRoomPriceTest@20ce78ec]" started-at="2025-08-12T20:05:39 IST" name="afterMethod" finished-at="2025-08-12T20:05:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdateRoomPrice status=SUCCESS method=UpdateRoomPriceTest.testUpdateRoomPrice()[pri:0, instance:tests.UpdateRoomPriceTest@20ce78ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.UpdateRoomPriceTest@20ce78ec]" started-at="2025-08-12T20:05:39 IST" name="afterMethod" finished-at="2025-08-12T20:05:39 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdateRoomPricesFromJson status=SUCCESS method=UpdateRoomPriceTest.testUpdateRoomPricesFromJson()[pri:0, instance:tests.UpdateRoomPriceTest@20ce78ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.UpdateRoomPriceTest -->
+      <class name="tests.DeleteRoomTest">
+        <test-method signature="testDeleteRoomById()[pri:0, instance:tests.DeleteRoomTest@393671df]" started-at="2025-08-12T20:05:39 IST" name="testDeleteRoomById" finished-at="2025-08-12T20:05:39 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteRoomById -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.DeleteRoomTest@393671df]" started-at="2025-08-12T20:05:39 IST" name="beforeMethod" finished-at="2025-08-12T20:05:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DeleteRoomTest.testDeleteRoomById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testDeleteRoomsFromJson()[pri:0, instance:tests.DeleteRoomTest@393671df]" started-at="2025-08-12T20:05:39 IST" name="testDeleteRoomsFromJson" finished-at="2025-08-12T20:05:40 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteRoomsFromJson -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.DeleteRoomTest@393671df]" started-at="2025-08-12T20:05:39 IST" name="afterMethod" finished-at="2025-08-12T20:05:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteRoomById status=SUCCESS method=DeleteRoomTest.testDeleteRoomById()[pri:0, instance:tests.DeleteRoomTest@393671df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.DeleteRoomTest@393671df]" started-at="2025-08-12T20:05:39 IST" name="beforeMethod" finished-at="2025-08-12T20:05:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.DeleteRoomTest.testDeleteRoomsFromJson()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.DeleteRoomTest@393671df]" started-at="2025-08-12T20:05:40 IST" name="afterMethod" finished-at="2025-08-12T20:05:40 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteRoomsFromJson status=SUCCESS method=DeleteRoomTest.testDeleteRoomsFromJson()[pri:0, instance:tests.DeleteRoomTest@393671df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.DeleteRoomTest -->
+      <class name="tests.ViewRoomByIdTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ViewRoomByIdTest@3835c46]" started-at="2025-08-12T20:05:35 IST" name="beforeMethod" finished-at="2025-08-12T20:05:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ViewRoomByIdTest.testViewRoomById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testViewRoomById()[pri:0, instance:tests.ViewRoomByIdTest@3835c46]" started-at="2025-08-12T20:05:35 IST" name="testViewRoomById" finished-at="2025-08-12T20:05:35 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewRoomById -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.ViewRoomByIdTest@3835c46]" started-at="2025-08-12T20:05:35 IST" name="afterMethod" finished-at="2025-08-12T20:05:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testViewRoomById status=SUCCESS method=ViewRoomByIdTest.testViewRoomById()[pri:0, instance:tests.ViewRoomByIdTest@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testViewRoomsByIdFromJson()[pri:0, instance:tests.ViewRoomByIdTest@3835c46]" started-at="2025-08-12T20:05:35 IST" name="testViewRoomsByIdFromJson" finished-at="2025-08-12T20:05:36 IST" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewRoomsByIdFromJson -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ViewRoomByIdTest@3835c46]" started-at="2025-08-12T20:05:35 IST" name="beforeMethod" finished-at="2025-08-12T20:05:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ViewRoomByIdTest.testViewRoomsByIdFromJson()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.ViewRoomByIdTest@3835c46]" started-at="2025-08-12T20:05:36 IST" name="afterMethod" finished-at="2025-08-12T20:05:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testViewRoomsByIdFromJson status=SUCCESS method=ViewRoomByIdTest.testViewRoomsByIdFromJson()[pri:0, instance:tests.ViewRoomByIdTest@3835c46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.ViewRoomByIdTest -->
+      <class name="tests.ViewRoomByTypeTest">
+        <test-method signature="testViewRoomByType()[pri:0, instance:tests.ViewRoomByTypeTest@1dde4cb2]" started-at="2025-08-12T20:05:36 IST" name="testViewRoomByType" finished-at="2025-08-12T20:05:36 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewRoomByType -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ViewRoomByTypeTest@1dde4cb2]" started-at="2025-08-12T20:05:36 IST" name="beforeMethod" finished-at="2025-08-12T20:05:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ViewRoomByTypeTest.testViewRoomByType()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.ViewRoomByTypeTest@1dde4cb2]" started-at="2025-08-12T20:05:36 IST" name="afterMethod" finished-at="2025-08-12T20:05:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testViewRoomByType status=SUCCESS method=ViewRoomByTypeTest.testViewRoomByType()[pri:0, instance:tests.ViewRoomByTypeTest@1dde4cb2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ViewRoomByTypeTest@1dde4cb2]" started-at="2025-08-12T20:05:36 IST" name="beforeMethod" finished-at="2025-08-12T20:05:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ViewRoomByTypeTest.testViewRoomsByTypeFromJson()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testViewRoomsByTypeFromJson()[pri:0, instance:tests.ViewRoomByTypeTest@1dde4cb2]" started-at="2025-08-12T20:05:36 IST" name="testViewRoomsByTypeFromJson" finished-at="2025-08-12T20:05:37 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewRoomsByTypeFromJson -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.ViewRoomByTypeTest@1dde4cb2]" started-at="2025-08-12T20:05:37 IST" name="afterMethod" finished-at="2025-08-12T20:05:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testViewRoomsByTypeFromJson status=SUCCESS method=ViewRoomByTypeTest.testViewRoomsByTypeFromJson()[pri:0, instance:tests.ViewRoomByTypeTest@1dde4cb2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.ViewRoomByTypeTest -->
+      <class name="tests.AuthTests">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.AuthTests@61df66b6]" started-at="2025-08-12T20:05:32 IST" name="beforeSuite" finished-at="2025-08-12T20:05:33 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.AuthTests@61df66b6]" started-at="2025-08-12T20:05:33 IST" name="beforeMethod" finished-at="2025-08-12T20:05:33 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AuthTests.testGetAuthAndToken()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetAuthAndToken()[pri:0, instance:tests.AuthTests@61df66b6]" started-at="2025-08-12T20:05:33 IST" name="testGetAuthAndToken" finished-at="2025-08-12T20:05:35 IST" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAuthAndToken -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.AuthTests@61df66b6]" started-at="2025-08-12T20:05:35 IST" name="afterMethod" finished-at="2025-08-12T20:05:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetAuthAndToken status=SUCCESS method=AuthTests.testGetAuthAndToken()[pri:0, instance:tests.AuthTests@61df66b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.AuthTests@61df66b6]" started-at="2025-08-12T20:05:40 IST" name="afterSuite" finished-at="2025-08-12T20:05:40 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.AuthTests -->
+      <class name="tests.ViewRoomListTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ViewRoomListTest@20deea7f]" started-at="2025-08-12T20:05:35 IST" name="beforeMethod" finished-at="2025-08-12T20:05:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ViewRoomListTest.testViewRoomList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testViewRoomList()[pri:0, instance:tests.ViewRoomListTest@20deea7f]" started-at="2025-08-12T20:05:35 IST" name="testViewRoomList" finished-at="2025-08-12T20:05:35 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewRoomList -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.ViewRoomListTest@20deea7f]" started-at="2025-08-12T20:05:35 IST" name="afterMethod" finished-at="2025-08-12T20:05:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testViewRoomList status=SUCCESS method=ViewRoomListTest.testViewRoomList()[pri:0, instance:tests.ViewRoomListTest@20deea7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.ViewRoomListTest -->
+      <class name="tests.AddRoomTest">
+        <test-method signature="testAddRoom()[pri:0, instance:tests.AddRoomTest@7714e963]" started-at="2025-08-12T20:05:37 IST" name="testAddRoom" finished-at="2025-08-12T20:05:37 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddRoom -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.AddRoomTest@7714e963]" started-at="2025-08-12T20:05:37 IST" name="beforeMethod" finished-at="2025-08-12T20:05:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AddRoomTest.testAddRoom()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.AddRoomTest@7714e963]" started-at="2025-08-12T20:05:37 IST" name="afterMethod" finished-at="2025-08-12T20:05:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddRoom status=SUCCESS method=AddRoomTest.testAddRoom()[pri:0, instance:tests.AddRoomTest@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.AddRoomTest@7714e963]" started-at="2025-08-12T20:05:37 IST" name="beforeMethod" finished-at="2025-08-12T20:05:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.AddRoomTest.testAddRoomsFromJson()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAddRoomsFromJson()[pri:0, instance:tests.AddRoomTest@7714e963]" started-at="2025-08-12T20:05:37 IST" name="testAddRoomsFromJson" finished-at="2025-08-12T20:05:38 IST" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddRoomsFromJson -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.AddRoomTest@7714e963]" started-at="2025-08-12T20:05:38 IST" name="afterMethod" finished-at="2025-08-12T20:05:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddRoomsFromJson status=SUCCESS method=AddRoomTest.testAddRoomsFromJson()[pri:0, instance:tests.AddRoomTest@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.AddRoomTest -->
+    </test> <!-- RoomService Tests -->
+  </suite> <!-- Hotel Room API Suite -->
+</testng-results>

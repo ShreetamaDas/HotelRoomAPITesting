@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Hotel_Room_API_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Hotel Room API Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Hotel_Room_API_Suite" class="navigator-link ">
+                    <span>C:\Users\manna\eclipse-workspace\HotelRoomApiRestAssured\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Hotel_Room_API_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Hotel_Room_API_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Hotel_Room_API_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Hotel_Room_API_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Hotel_Room_API_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Hotel_Room_API_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Hotel_Room_API_Suite" class="hide-methods passed suite-Hotel_Room_API_Suite"> (hide)</a> <!-- hide-methods passed suite-Hotel_Room_API_Suite -->
+                      <a href="#" panel-name="suite-Hotel_Room_API_Suite" class="show-methods passed suite-Hotel_Room_API_Suite"> (show)</a> <!-- show-methods passed suite-Hotel_Room_API_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Hotel_Room_API_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.AddRoomTest" class="method navigator-link" hash-for-method="testAddRoom">testAddRoom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.AddRoomTest" class="method navigator-link" hash-for-method="testAddRoomsFromJson">testAddRoomsFromJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.DeleteRoomTest" class="method navigator-link" hash-for-method="testDeleteRoomById">testDeleteRoomById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.DeleteRoomTest" class="method navigator-link" hash-for-method="testDeleteRoomsFromJson">testDeleteRoomsFromJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.AuthTests" class="method navigator-link" hash-for-method="testGetAuthAndToken">testGetAuthAndToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.UpdateRoomPriceTest" class="method navigator-link" hash-for-method="testUpdateRoomPrice">testUpdateRoomPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.UpdateRoomPriceTest" class="method navigator-link" hash-for-method="testUpdateRoomPricesFromJson">testUpdateRoomPricesFromJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomByIdTest" class="method navigator-link" hash-for-method="testViewRoomById">testViewRoomById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomByTypeTest" class="method navigator-link" hash-for-method="testViewRoomByType">testViewRoomByType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomListTest" class="method navigator-link" hash-for-method="testViewRoomList">testViewRoomList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomByIdTest" class="method navigator-link" hash-for-method="testViewRoomsByIdFromJson">testViewRoomsByIdFromJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Hotel_Room_API_Suite" title="tests.ViewRoomByTypeTest" class="method navigator-link" hash-for-method="testViewRoomsByTypeFromJson">testViewRoomsByTypeFromJson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Hotel_Room_API_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Hotel_Room_API_Suite" class="panel Hotel_Room_API_Suite">
+          <div class="suite-Hotel_Room_API_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ViewRoomByIdTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewRoomById">
+                  </a> <!-- testViewRoomById -->
+                  <span class="method-name">testViewRoomById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewRoomsByIdFromJson">
+                  </a> <!-- testViewRoomsByIdFromJson -->
+                  <span class="method-name">testViewRoomsByIdFromJson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hotel_Room_API_Suite-class-passed -->
+          <div class="suite-Hotel_Room_API_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.DeleteRoomTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteRoomById">
+                  </a> <!-- testDeleteRoomById -->
+                  <span class="method-name">testDeleteRoomById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteRoomsFromJson">
+                  </a> <!-- testDeleteRoomsFromJson -->
+                  <span class="method-name">testDeleteRoomsFromJson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hotel_Room_API_Suite-class-passed -->
+          <div class="suite-Hotel_Room_API_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddRoomTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddRoom">
+                  </a> <!-- testAddRoom -->
+                  <span class="method-name">testAddRoom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddRoomsFromJson">
+                  </a> <!-- testAddRoomsFromJson -->
+                  <span class="method-name">testAddRoomsFromJson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hotel_Room_API_Suite-class-passed -->
+          <div class="suite-Hotel_Room_API_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AuthTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetAuthAndToken">
+                  </a> <!-- testGetAuthAndToken -->
+                  <span class="method-name">testGetAuthAndToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hotel_Room_API_Suite-class-passed -->
+          <div class="suite-Hotel_Room_API_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ViewRoomListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewRoomList">
+                  </a> <!-- testViewRoomList -->
+                  <span class="method-name">testViewRoomList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hotel_Room_API_Suite-class-passed -->
+          <div class="suite-Hotel_Room_API_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UpdateRoomPriceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateRoomPrice">
+                  </a> <!-- testUpdateRoomPrice -->
+                  <span class="method-name">testUpdateRoomPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateRoomPricesFromJson">
+                  </a> <!-- testUpdateRoomPricesFromJson -->
+                  <span class="method-name">testUpdateRoomPricesFromJson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hotel_Room_API_Suite-class-passed -->
+          <div class="suite-Hotel_Room_API_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ViewRoomByTypeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewRoomByType">
+                  </a> <!-- testViewRoomByType -->
+                  <span class="method-name">testViewRoomByType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testViewRoomsByTypeFromJson">
+                  </a> <!-- testViewRoomsByTypeFromJson -->
+                  <span class="method-name">testViewRoomsByTypeFromJson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Hotel_Room_API_Suite-class-passed -->
+        </div> <!-- panel Hotel_Room_API_Suite -->
+        <div panel-name="test-xml-Hotel_Room_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\manna\eclipse-workspace\HotelRoomApiRestAssured\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Hotel Room API Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RoomService Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AuthTests&quot;/&gt;
+      &lt;class name=&quot;tests.ViewRoomListTest&quot;/&gt;
+      &lt;class name=&quot;tests.ViewRoomByIdTest&quot;/&gt;
+      &lt;class name=&quot;tests.ViewRoomByTypeTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddRoomTest&quot;/&gt;
+      &lt;class name=&quot;tests.UpdateRoomPriceTest&quot;/&gt;
+      &lt;class name=&quot;tests.DeleteRoomTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RoomService Tests --&gt;
+&lt;/suite&gt; &lt;!-- Hotel Room API Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Hotel_Room_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Hotel Room API Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RoomService Tests (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Hotel_Room_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Hotel Room API Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Hotel_Room_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Hotel Room API Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Hotel_Room_API_Suite');
+function tableData_Hotel_Room_API_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetAuthAndToken')
+data.setCell(0, 2, 'tests.AuthTests')
+data.setCell(0, 3, 2073);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAddRoomsFromJson')
+data.setCell(1, 2, 'tests.AddRoomTest')
+data.setCell(1, 3, 1088);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testViewRoomsByIdFromJson')
+data.setCell(2, 2, 'tests.ViewRoomByIdTest')
+data.setCell(2, 3, 867);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testUpdateRoomPricesFromJson')
+data.setCell(3, 2, 'tests.UpdateRoomPriceTest')
+data.setCell(3, 3, 640);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testViewRoomsByTypeFromJson')
+data.setCell(4, 2, 'tests.ViewRoomByTypeTest')
+data.setCell(4, 3, 607);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDeleteRoomsFromJson')
+data.setCell(5, 2, 'tests.DeleteRoomTest')
+data.setCell(5, 3, 526);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testAddRoom')
+data.setCell(6, 2, 'tests.AddRoomTest')
+data.setCell(6, 3, 409);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testViewRoomList')
+data.setCell(7, 2, 'tests.ViewRoomListTest')
+data.setCell(7, 3, 261);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testViewRoomByType')
+data.setCell(8, 2, 'tests.ViewRoomByTypeTest')
+data.setCell(8, 3, 206);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testViewRoomById')
+data.setCell(9, 2, 'tests.ViewRoomByIdTest')
+data.setCell(9, 3, 187);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testUpdateRoomPrice')
+data.setCell(10, 2, 'tests.UpdateRoomPriceTest')
+data.setCell(10, 3, 185);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testDeleteRoomById')
+data.setCell(11, 2, 'tests.DeleteRoomTest')
+data.setCell(11, 3, 169);
+window.suiteTableData['Hotel_Room_API_Suite']= { tableData: data, tableDiv: 'times-div-Hotel_Room_API_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-Hotel_Room_API_Suite">
+              </div> <!-- times-div-Hotel_Room_API_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Hotel_Room_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Hotel Room API Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Hotel_Room_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ViewRoomByIdTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.DeleteRoomTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.AddRoomTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ViewRoomListTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.UpdateRoomPriceTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ViewRoomByTypeTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Hotel_Room_API_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AuthTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.AuthTests.testGetAuthAndToken())</span>
+                <span class="method-start">587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetAuthAndToken</span>
+                <span class="method-start">592 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testGetAuthAndToken status=SUCCESS method=AuthTests.testGetAuthAndToken()[pri:0, in...)</span>
+                <span class="method-start">2667 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ViewRoomListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.ViewRoomListTest.testViewRoomList())</span>
+                <span class="method-start">2668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testViewRoomList</span>
+                <span class="method-start">2669 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ViewRoomByIdTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.ViewRoomByIdTest.testViewRoomById())</span>
+                <span class="method-start">2931 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ViewRoomListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testViewRoomList status=SUCCESS method=ViewRoomListTest.testViewRoomList()[pri:0, i...)</span>
+                <span class="method-start">2931 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ViewRoomByIdTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testViewRoomById</span>
+                <span class="method-start">2932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testViewRoomById status=SUCCESS method=ViewRoomByIdTest.testViewRoomById()[pri:0, i...)</span>
+                <span class="method-start">3119 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.ViewRoomByIdTest.testViewRoomsByIdFromJson())</span>
+                <span class="method-start">3120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testViewRoomsByIdFromJson</span>
+                <span class="method-start">3120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testViewRoomsByIdFromJson status=SUCCESS method=ViewRoomByIdTest.testViewRoomsByIdF...)</span>
+                <span class="method-start">3987 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ViewRoomByTypeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testViewRoomByType</span>
+                <span class="method-start">3988 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.ViewRoomByTypeTest.testViewRoomByType())</span>
+                <span class="method-start">3988 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testViewRoomByType status=SUCCESS method=ViewRoomByTypeTest.testViewRoomByType()[pr...)</span>
+                <span class="method-start">4195 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.ViewRoomByTypeTest.testViewRoomsByTypeFromJson())</span>
+                <span class="method-start">4195 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testViewRoomsByTypeFromJson</span>
+                <span class="method-start">4196 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testViewRoomsByTypeFromJson status=SUCCESS method=ViewRoomByTypeTest.testViewRoomsB...)</span>
+                <span class="method-start">4803 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddRoomTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAddRoom</span>
+                <span class="method-start">4804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.AddRoomTest.testAddRoom())</span>
+                <span class="method-start">4804 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAddRoom status=SUCCESS method=AddRoomTest.testAddRoom()[pri:0, instance:tests.A...)</span>
+                <span class="method-start">5213 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.AddRoomTest.testAddRoomsFromJson())</span>
+                <span class="method-start">5215 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddRoomsFromJson</span>
+                <span class="method-start">5216 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testAddRoomsFromJson status=SUCCESS method=AddRoomTest.testAddRoomsFromJson()[pri:0...)</span>
+                <span class="method-start">6305 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UpdateRoomPriceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.UpdateRoomPriceTest.testUpdateRoomPrice())</span>
+                <span class="method-start">6307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdateRoomPrice</span>
+                <span class="method-start">6307 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUpdateRoomPricesFromJson</span>
+                <span class="method-start">6492 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.UpdateRoomPriceTest.testUpdateRoomPricesFromJson())</span>
+                <span class="method-start">6492 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testUpdateRoomPrice status=SUCCESS method=UpdateRoomPriceTest.testUpdateRoomPrice()...)</span>
+                <span class="method-start">6492 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testUpdateRoomPricesFromJson status=SUCCESS method=UpdateRoomPriceTest.testUpdateRo...)</span>
+                <span class="method-start">7132 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.DeleteRoomTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDeleteRoomById</span>
+                <span class="method-start">7133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.DeleteRoomTest.testDeleteRoomById())</span>
+                <span class="method-start">7133 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testDeleteRoomById status=SUCCESS method=DeleteRoomTest.testDeleteRoomById()[pri:0,...)</span>
+                <span class="method-start">7302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void tests.DeleteRoomTest.testDeleteRoomsFromJson())</span>
+                <span class="method-start">7302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteRoomsFromJson</span>
+                <span class="method-start">7302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=testDeleteRoomsFromJson status=SUCCESS method=DeleteRoomTest.testDeleteRoomsFromJso...)</span>
+                <span class="method-start">7829 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AuthTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">7855 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

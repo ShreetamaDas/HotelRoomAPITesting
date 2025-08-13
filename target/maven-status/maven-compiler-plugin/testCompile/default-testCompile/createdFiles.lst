@@ -1,0 +1,9 @@
+base\TestBase.class
+tests\AuthTests.class
+base\ExtentManager.class
+tests\ViewRoomListTest.class
+tests\UpdateRoomPriceTest.class
+tests\AddRoomTest.class
+tests\ViewRoomByIdTest.class
+tests\DeleteRoomTest.class
+tests\ViewRoomByTypeTest.class

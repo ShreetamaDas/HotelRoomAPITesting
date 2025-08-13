@@ -1,0 +1,32 @@
+[
+    {
+        "roomId": 101,
+        "hotelId": "H2001",
+        "roomType": "SINGLE",
+        "roomStatus": "AVAILABLE",
+        "roomPrice": 1500.0
+    },
+    {
+        "roomId": 301,
+        "hotelId": "H2001",
+        "roomType": "DELUXE",
+        "roomStatus": "NOTAVAILABLE",
+        "roomPrice": 5000.0
+    },
+    {
+        "roomId": 701,
+        "hotelId": "H2001",
+        "roomType": "DOUBLE",
+        "roomStatus": "AVAILABLE",
+        "roomPrice": 5500.0
+    },
+	
+	{
+	        "roomId": 702,
+	        "hotelId": "H2001",
+	        "roomType": "abcd",
+	        "roomStatus": "AVAILABLE",
+	        "roomPrice": 5500.0
+	    }
+		
+]
